@@ -1,0 +1,63 @@
+.content{
+    width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.aside {
+    width: 300px;
+    float: right;
+}
+
+.aside .movie-top{
+    height: 600px;
+    background: #F27602;
+    margin-top: 50px;
+}
+
+.movie-grid-list {
+    margin-right: 400px;
+}
+
+.movie-grid-list .movie-grid{
+    background: #ffffff;
+    margin-top: 50px;
+}
+
+.movie-grid-list .movie-grid .head{
+    height: 40px;
+    border: 2px solid #ffffff;
+}
+
+.movie-grid-list .movie-grid .head img, .movie-grid-list .movie-grid .head .all {
+    float: right;
+}
+.movie-grid-list .movie-grid .head img {
+    margin-top: 12px;
+}
+.movie-grid-list .movie-grid .head .all,
+.movie-grid-list .movie-grid .head .hot {
+    line-height: 40px;
+    color: #9E5126;
+}
+
+.movie-grid-list .movie-grid .head .all a:link,
+.movie-grid-list .movie-grid .head .all a:visited {
+    text-decoration: none;
+    color: #9E5126;
+}
+.movie-grid-list .movie-grid .head .all a:hover {
+    text-decoration: underline;
+    color: #9E5126;
+}
+
+.movie-grid-list .movie-grid .movie-list .movie_dl dl {
+    margin: -29px 0 20px -25px;
+}
+.movie-grid-list .movie-grid .movie-list .movie_dl dd {
+    width: 100px;
+    height: 100px;
+    background: url("");
+    display: inline-block;
+    margin: 20px 25px;
+}
