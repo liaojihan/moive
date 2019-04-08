@@ -6,7 +6,6 @@
 }
 
 body {
-    background: #ffffff;
     font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
 }
 
@@ -19,6 +18,9 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
+}
+.top-placeholder {
+    height: 81px;
 }
 
 /*头部内容*/

@@ -1,4 +1,6 @@
-$($('.top_content a:first')).addClass('active');
+$(document).ready(function () {
+    $($('.top_content a:first')).addClass('active');
+});
 
 $('.top_content a').on('click', function () {
     $('.top_content a').removeClass('active');
