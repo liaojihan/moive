@@ -1,63 +1,97 @@
-.content{
+.container {
+    margin-top: 150px;
+}
+
+.content {
     width: 1200px;
-    margin: 50px auto;
-    overflow: hidden;
+    margin: 0 auto;
+    background: #e8e8e8;
 }
 
-.aside {
+.showing-up,
+.shown-soon,
+.showing-hot{
+    height: 650px;
+    margin-bottom: 50px;
+}
+
+.showing-up .movie-top,
+.shown-soon .movie-top,
+.showing-hot .movie-top {
     width: 300px;
+    background: #C3C1C1;
     float: right;
+    height: 100%;
 }
 
-.aside .movie-top{
-    height: 600px;
-    background: #F27602;
-    margin-top: 50px;
+.showing-up .movie-grid,
+.shown-soon .movie-grid,
+.showing-hot .movie-grid {
+    float: left;
+    width: 800px;
+    height: 100%;
 }
 
-.movie-grid-list {
-    margin-right: 400px;
-}
-
-.movie-grid-list .movie-grid{
-    background: #ffffff;
-    margin-top: 50px;
-}
-
-.movie-grid-list .movie-grid .head{
+.showing-up .movie-grid .head,
+.shown-soon .movie-grid .head,
+.showing-hot .movie-grid .head {
     height: 40px;
-    border: 2px solid #ffffff;
 }
 
-.movie-grid-list .movie-grid .head img, .movie-grid-list .movie-grid .head .all {
+.showing-up .movie-grid .head img,
+.shown-soon .movie-grid .head img,
+.showing-hot .movie-grid .head img,
+.showing-hot .movie-top .head img {
     float: right;
-}
-.movie-grid-list .movie-grid .head img {
     margin-top: 12px;
 }
-.movie-grid-list .movie-grid .head .all,
-.movie-grid-list .movie-grid .head .hot {
+
+.showing-up .movie-grid .head .all,
+.shown-soon .movie-grid .head .all,
+.showing-hot .movie-grid .head .all,
+.showing-hot .movie-top .head .all {
+    float: right;
     line-height: 40px;
-    color: #9E5126;
 }
 
-.movie-grid-list .movie-grid .head .all a:link,
-.movie-grid-list .movie-grid .head .all a:visited {
+.showing-up .movie-grid .head .all  a:link, .showing-up .movie-grid .head .all  a:visited,
+.shown-soon .movie-grid .head .all  a:link, .shown-soon .movie-grid .head .all  a:visited,
+.showing-hot .movie-grid .head .all a:link, .showing-hot .movie-grid .head .all a:visited,
+.showing-hot .movie-top .head .all a:link, .showing-hot .movie-top .head .all a:visited {
+    color: #9E5126;
     text-decoration: none;
-    color: #9E5126;
 }
-.movie-grid-list .movie-grid .head .all a:hover {
+
+.showing-up .movie-grid .head .all  a:hover, .showing-up .movie-grid .head .all  a:active,
+.shown-soon .movie-grid .head .all  a:hover, .shown-soon .movie-grid .head .all  a:active,
+.showing-hot .movie-grid .head .all a:hover, .showing-hot .movie-grid .head .all a:active,
+.showing-hot .movie-top .head .all a:hover, .showing-hot .movie-top .head .all a:active {
+    color: #9E5126;
     text-decoration: underline;
+}
+
+.showing-up .movie-grid .head .hot,
+.shown-soon .movie-grid .head .hot,
+.showing-hot .movie-grid .head .hot,
+.showing-up  .movie-top .head .top-today,
+.shown-soon  .movie-top .head .top-today,
+.showing-hot .movie-top .head .top-today{
+    line-height: 40px;
+    font-size: 26px;
     color: #9E5126;
 }
 
-.movie-grid-list .movie-grid .movie-list .movie_dl dl {
-    margin: -29px 0 20px -25px;
+.showing-up  .movie-grid .movie-list .movie_dl dd,
+.shown-soon  .movie-grid .movie-list .movie_dl dd,
+.showing-hot .movie-grid .movie-list .movie_dl dd {
+    float: left;
+    margin: 10px 15px 10px 30px ;
 }
-.movie-grid-list .movie-grid .movie-list .movie_dl dd {
-    width: 100px;
-    height: 100px;
-    background: url("");
-    display: inline-block;
-    margin: 20px 25px;
+
+.showing-up  .movie-grid .movie-list .movie_dl dd img,
+.shown-soon  .movie-grid .movie-list .movie_dl dd img,
+.showing-hot .movie-grid .movie-list .movie_dl dd img {
+    width: 150px;
+    height: 180px;
 }
+
