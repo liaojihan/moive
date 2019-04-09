@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdcc23e7-2044-4a7d-8b30-6672fb6aa1e2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/home/showing-hot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/home/showing-up.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/home/shown-soon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/movie.html" afterDir="false" />
+    <list default="true" id="fdcc23e7-2044-4a7d-8b30-6672fb6aa1e2" name="Default" comment="movie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -253,22 +248,29 @@
       <workItem from="1554546410828" duration="15100000" />
       <workItem from="1554609758824" duration="26773000" />
       <workItem from="1554686947055" duration="600000" />
-      <workItem from="1554703024837" duration="16719000" />
+      <workItem from="1554703024837" duration="16776000" />
     </task>
+    <task id="LOCAL-00001" summary="movie">
+      <created>1554720098897</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554720098897</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59192000" />
+    <option name="totallyTimeSpent" value="59249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1264489" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.14503817" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.29116684" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19411123" />
@@ -307,6 +309,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="movie" />
+    <option name="LAST_COMMIT_MESSAGE" value="movie" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/home.html">
