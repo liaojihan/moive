@@ -16,3 +16,15 @@ IntegerToWan = number => {
 generateScore = number => {
     return number + '分';
 };
+
+saveCookie = (key, value) => {
+  $.cookie(key, value, {expires: 1, path: '/'});
+};
+
+getCookie = key => {
+    let cookieValue = $.cookie(key);
+    if (cookieValue) {
+        return cookieValue;
+    }
+    return null;
+};
