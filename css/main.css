@@ -1,5 +1,5 @@
 .container {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .content {
@@ -10,14 +10,14 @@
 .showing-up,
 .shown-soon,
 .showing-hot{
-    height: 650px;
+    height: 780px;
     margin-bottom: 50px;
 }
 
 .showing-up .movie-top,
 .shown-soon .movie-top,
 .showing-hot .movie-top {
-    width: 300px;
+    width: 320px;
     float: right;
     height: 100%;
 }
@@ -83,13 +83,123 @@
 .shown-soon  .movie-grid .movie-list .movie_dl dd,
 .showing-hot .movie-grid .movie-list .movie_dl dd {
     float: left;
-    margin: 10px 15px 10px 30px ;
+    margin: 10px 20px;
 }
 
-.showing-up  .movie-grid .movie-list .movie_dl dd img,
-.shown-soon  .movie-grid .movie-list .movie_dl dd img,
-.showing-hot .movie-grid .movie-list .movie_dl dd img {
-    width: 150px;
-    height: 180px;
+.showing-up  .movie-grid .movie-list .movie_dl dd .movie-item,
+.shown-soon  .movie-grid .movie-list .movie_dl dd .movie-item,
+.showing-hot .movie-grid .movie-list .movie_dl dd .movie-item {
+    width: 160px;
+    height: 220px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
 }
+
+.showing-up  .movie-grid .movie-list .movie_dl dd .movie-item .position,
+.shown-soon  .movie-grid .movie-list .movie_dl dd .movie-item .position,
+.showing-hot .movie-grid .movie-list .movie_dl dd .movie-item .position {
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    height: 40px;
+    width: 100%;
+}
+
+.showing-up  .movie-grid .movie-list .movie_dl dd .movie-item .position span,
+.shown-soon  .movie-grid .movie-list .movie_dl dd .movie-item .position span,
+.showing-hot .movie-grid .movie-list .movie_dl dd .movie-item .position span {
+    color: #ffffff;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    line-height: 40px;
+}
+
+.showing-up  .movie-grid .movie-list .movie_dl dd .movie-item .position i,
+.shown-soon  .movie-grid .movie-list .movie_dl dd .movie-item .position i,
+.showing-hot .movie-grid .movie-list .movie_dl dd .movie-item .position i {
+    color: #ffb400;
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    line-height: 40px;
+}
+
+.showing-up .movie-top .movie-list .movie-ul,
+.showing-hot .movie-top .movie-list .movie-ul{
+    margin-top: 10px;
+    display: none;
+}
+
+.showing-up .movie-top .movie-list .movie-ul li,
+.showing-hot .movie-top .movie-list .movie-ul li {
+    /*background: #CC3300;*/
+    list-style-type: none;
+}
+
+.showing-up .movie-top .movie-list .movie-ul .normal-span,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span {
+    display: block;
+    line-height: 40px;
+    height: 40px;
+}
+
+.showing-up .movie-top .movie-list .movie-ul a,
+.showing-hot .movie-top .movie-list .movie-ul a{
+    display: block;
+}
+
+.showing-up .movie-top .movie-list .movie-ul a:link,
+.showing-up .movie-top .movie-list .movie-ul a:visited,
+.showing-hot .movie-top .movie-list .movie-ul a:link,
+.showing-hot .movie-top .movie-list .movie-ul a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.showing-up .movie-top .movie-list .movie-ul a:hover,
+.showing-hot .movie-top .movie-list .movie-ul a:hover {
+    background-color: #F7F7F7;
+}
+
+.showing-up .movie-top .movie-list .movie-ul .normal-span .rank-index,
+.showing-up .movie-top .movie-list .movie-ul .normal-span .movie-name,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span .rank-index,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span .movie-name{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.showing-up .movie-top .movie-list .movie-ul .normal-span .rank-index,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span .rank-index {
+    color: #999999;
+}
+
+.showing-up .movie-top .movie-list .movie-ul .normal-span .rank-index-top,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span .rank-index-top{
+    color: #EF4238;
+}
+
+.showing-up .movie-top .movie-list .movie-ul .normal-span .movie-box,
+.showing-hot .movie-top .movie-list .movie-ul .normal-span .movie-box {
+    float: right;
+    color: #EF4238;
+}
+
+.showing-up .movie-top .movie-list .loading,
+.showing-hot .movie-top .movie-list .loading {
+    width: 320px;
+    height: 600px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+
+
 
