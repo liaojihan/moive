@@ -6,7 +6,6 @@
 }
 
 body {
-    background: #ffffff;
     font-family: Microsoft YaHei,Helvetica,Arial,sans-serif;
 }
 
@@ -19,6 +18,9 @@ body {
     top: 0;
     left: 0;
     z-index: 1000;
+}
+.top-placeholder {
+    height: 81px;
 }
 
 /*头部内容*/
@@ -70,6 +72,11 @@ body {
     color: #fff;
     text-decoration: none;
 }
+.top_content a.active {
+    background: #9E5126;
+    color: #fff;
+    text-decoration: none;
+}
 
 .top_content form {
     width: 220px;
@@ -86,7 +93,6 @@ body {
     border: 1px solid #ccc;
     font-size: 14px;
     border-radius: 30px;
-    background-color: #faf8fa;
     overflow: hidden;
     color: #333;
     margin-top: 2px;
