@@ -24,22 +24,15 @@ $(function () {
             }
         }
     });
-
-    $.ajax({
-        url: "https://api.douban.com/v2/book/search?q=旅行&count=8",
-        dataType: 'jsonp',
-        type: 'get',
-        success: function (data) {
-            console.log(data);
-        }
-    });
 });
 
 setShowingUp = data => {
     $('.showing-up .movie-item img').each( function (index, element) {
         $(this).attr('src', data[index].images.small);
-        $(this).css('width', '100%');
-        $(this).css('height', '100%');
+        $(this).on('load', function () {
+            $(this).css('width', '100%');
+            $(this).css('height', '100%');
+        });
     });
 
     $('.showing-up .movie-item .position').each( function (index) {

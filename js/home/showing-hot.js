@@ -19,7 +19,6 @@ $(function () {
         dataType: 'jsonp',
         type: 'get',
         success: function (data) {
-            console.log(data['subjects']);
             if (data['subjects']){
                 setTop50(data['subjects']);
             }
@@ -30,8 +29,10 @@ $(function () {
 setShowingHot = data => {
     $('.showing-hot .movie-item img').each( function (index, element) {
         $(this).attr('src', data[index].images.small);
-        $(this).css('width', '100%');
-        $(this).css('height', '100%');
+        $(this).on('load', function () {
+            $(this).css('width', '100%');
+            $(this).css('height', '100%');
+        });
     });
 };
 

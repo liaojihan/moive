@@ -28,3 +28,8 @@ getCookie = key => {
     }
     return null;
 };
+
+dateFormatter = date => {
+    let monthDay = date.substring(5).split('-');
+    return monthDay[0] + '月' + monthDay[1] + '日上映';
+};
